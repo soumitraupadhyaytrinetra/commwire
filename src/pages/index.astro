@@ -1,0 +1,109 @@
+---
+import { siteConfig } from "../config";
+import HeroSection from "../components/news/HeroSection.astro";
+import NewsCard from "../components/news/NewsCard.astro";
+import TrendingTopics from "../components/news/TrendingTopics.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { categories } from "../config";
+import { getTopStories, getTrendingArticles, getArticlesByCategory, getTrendTopics } from "../lib/data";
+
+const topStories = getTopStories(15);
+const trending = getTrendingArticles(4);
+
+const goldArticles = getArticlesByCategory("gold", 6);
+const silverArticles = getArticlesByCategory("silver", 6);
+const oilArticles = getArticlesByCategory("oil", 6);
+const gasArticles = getArticlesByCategory("gas", 4);
+const metalsArticles = getArticlesByCategory("metals", 4);
+const agricultureArticles = getArticlesByCategory("agriculture", 4);
+
+const trendTopics = getTrendTopics();
+---
+
+<BaseLayout title="Home">
+  <HeroSection articles={trending.slice(0, 4).map(a => ({
+    id: a.id,
+    title: a.title,
+    excerpt: a.excerpt,
+    source: a.source,
+    category: a.category,
+    publicationDate: new Date(a.publicationDate),
+    importanceScore: a.importanceScore,
+    imageUrl: a.imageUrl,
+  }))} />
+
+  <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
+    <div>
+      <section class="mb-10">
+        <h2 class="text-sm font-semibold tracking-wide uppercase text-[var(--text-tertiary)] mb-5">Top Stories</h2>
+        <div class="space-y-3">
+          {topStories.slice(0, 8).map((article) => (
+            <NewsCard
+              id={article.id}
+              title={article.title}
+              url={article.url}
+              source={article.source}
+              author={article.author}
+              excerpt={article.excerpt}
+              category={article.category}
+              publicationDate={new Date(article.publicationDate)}
+              importanceScore={article.importanceScore}
+              imageUrl={article.imageUrl}
+            />
+          ))}
+        </div>
+      </section>
+
+      {goldArticles.length > 0 && (
+        <section class="mb-10">
+          <div class="flex items-center justify-between mb-5">
+            <h2 class="text-sm font-semibold tracking-wide uppercase text-[var(--text-tertiary)] mb-0">🥇 Gold</h2>
+            <a href="/gold" class="text-xs font-medium text-[var(--accent)] hover:underline">View all &rarr;</a>
+          </div>
+          <div class="space-y-3">
+            {goldArticles.slice(0, 4).map((article) => (
+              <NewsCard {...article} publicationDate={new Date(article.publicationDate)} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {silverArticles.length > 0 && (
+        <section class="mb-10">
+          <div class="flex items-center justify-between mb-5">
+            <h2 class="text-sm font-semibold tracking-wide uppercase text-[var(--text-tertiary)] mb-0">🥈 Silver</h2>
+            <a href="/silver" class="text-xs font-medium text-[var(--accent)] hover:underline">View all &rarr;</a>
+          </div>
+          <div class="space-y-3">
+            {silverArticles.slice(0, 4).map((article) => (
+              <NewsCard {...article} publicationDate={new Date(article.publicationDate)} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+        {categories.filter(c => ["oil", "gas", "metals", "agriculture"].includes(c.id)).map((cat) => {
+          const count = {
+            oil: oilArticles.length,
+            gas: gasArticles.length,
+            metals: metalsArticles.length,
+            agriculture: agricultureArticles.length,
+          }[cat.id] || 0;
+          return (
+            <a href={`/${cat.id}`} class="news-card p-6 text-center block hover:border-[var(--accent)] transition-colors">
+              <h3 class="font-semibold text-base">{cat.icon} {cat.label}</h3>
+              <p class="text-xs text-[var(--text-tertiary)] mt-1">{count} articles</p>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+
+    <aside class="max-lg:hidden">
+      <div class="sticky top-24">
+        <TrendingTopics trends={trendTopics.slice(0, 10)} period="trending" />
+      </div>
+    </aside>
+  </div>
+</BaseLayout>
