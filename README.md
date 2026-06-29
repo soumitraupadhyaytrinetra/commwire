@@ -1,12 +1,12 @@
-# DeepWire Commodities
+# CommWire
 
 A commodity markets news intelligence platform. Aggregates headlines from major commodity desks, mining publications, energy wires, and agriculture reports across 6 categories — Gold, Silver, Oil, Gas, Mining & Metals, Agriculture.
 
-**Live demo:** _(deploy after launch)_
+**Live demo:** [commwire.app](https://commwire.app)
 
-## What DeepWire Commodities is
+## What CommWire is
 
-A static site that crawls ~22 RSS feeds from Kitco, World Gold Council, OilPrice.com, Mining.com, Reuters Commodities, USDA, and others, then surfaces them through a category-indexed reading experience. Built on Astro with the Lipi design language, designed for fast page loads and zero-tracking browsing.
+A static site that crawls 9 RSS feeds from World Gold Council, Silver Institute, OilPrice.com, Natural Gas World, Mining.com, Investing.com, Investing News Network, American Ag Network, and Farm Foundation, then surfaces them through a category-indexed reading experience. Built on Astro with the Lipi design language, designed for fast page loads and zero-tracking browsing.
 
 It is the commodities-sector sibling of [FinWire](https://github.com/soumitraupadhyaytrinetra/finwire) (finance), [DeepWire Celebs](https://github.com/soumitraupadhyaytrinetra/celebwire) (entertainment), and [DeepWire](https://github.com/Himan-D/deepwire) (AI/deep-tech).
 
@@ -58,9 +58,9 @@ All site identity lives in `src/config.ts`:
 
 ```ts
 export const siteConfig = {
-  name: "DeepWire Commodities",
+  name: "CommWire",
   description: "Commodity Markets News Intelligence",
-  url: "https://deepwire-commodities.app",
+  url: "https://commwire.app",
   // ...
 };
 
@@ -75,7 +75,7 @@ The RSS source list is in `src/lib/rss/sources.ts`. The category classifier voca
 ## Project Structure
 
 ```
-deepwire-commodities/
+commwire/
 ├── astro.config.mjs
 ├── package.json
 ├── vitest.config.ts

@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: "https://deepwire-commodities.app",
+  site: "https://commwire.app",
 
   vite: {
     build: {

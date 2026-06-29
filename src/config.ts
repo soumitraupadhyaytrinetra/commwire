@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "DeepWire Commodities",
+  name: "CommWire",
   description: "Commodity Markets News Intelligence",
-  url: process.env.SITE_URL || "https://deepwire-commodities.app",
-  author: "DeepWire Commodities",
-  twitter: "@deepwire_comms",
+  url: process.env.SITE_URL || "https://commwire.app",
+  author: "CommWire",
+  twitter: "@commwire",
 };
 
 export const categories = [
