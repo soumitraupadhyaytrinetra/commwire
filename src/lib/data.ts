@@ -99,6 +99,10 @@ export function getArticlesByCategory(category: string, limit: number = 20): Art
   return getArticles({ category, limit });
 }
 
+export function getCategoryCount(category: string): number {
+  return getAllArticles().filter((a) => a.category === category).length;
+}
+
 export function getTrendTopics(): Array<{
   topic: string;
   mentionCount: number;
