@@ -11061,5 +11061,58 @@
     "companies": [],
     "technologies": [],
     "processed": true
+  },
+  {
+    "id": 621,
+    "title": "OPEC+ reportedly expected to approve another oil output increase for August",
+    "url": "https://www.investing.com/news/economy-news/opec-expected-to-approve-another-oil-output-increase-for-august-4775413",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "OPEC+ reportedly expected to approve another oil output increase for August",
+    "content": "OPEC+ reportedly expected to approve another oil output increase for August",
+    "category": "oil",
+    "tags": [
+      "oil"
+    ],
+    "publicationDate": "2026-07-05T09:29:47.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 622,
+    "title": "Three sons of Khamenei attend funeral as successor remains out of public view",
+    "url": "https://www.investing.com/news/economy-news/three-sons-of-khamenei-attend-funeral-as-successor-remains-out-of-public-view-4775412",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "Three sons of Khamenei attend funeral as successor remains out of public view",
+    "content": "Three sons of Khamenei attend funeral as successor remains out of public view",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-07-05T08:35:26.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 623,
+    "title": "Millions mourn Khamenei as Trump says Iran talks to resume soon",
+    "url": "https://www.investing.com/news/economy-news/millions-mourn-khamenei-as-trump-says-iran-talks-to-resume-soon-4775407",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "Millions mourn Khamenei as Trump says Iran talks to resume soon",
+    "content": "Millions mourn Khamenei as Trump says Iran talks to resume soon",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-07-05T07:24:15.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
   }
 ]
