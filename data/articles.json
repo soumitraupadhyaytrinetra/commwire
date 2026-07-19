@@ -28882,5 +28882,39 @@
     "companies": [],
     "technologies": [],
     "processed": true
+  },
+  {
+    "id": 1625,
+    "title": "BofA on GBP",
+    "url": "https://www.investing.com/news/economy-news/bofa-on-gbp-4799713",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "BofA on GBP",
+    "content": "BofA on GBP",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-07-19T09:50:27.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 1626,
+    "title": "Men more likely than women to use job offers for pay rises, study finds",
+    "url": "https://www.investing.com/news/economy-news/men-more-likely-than-women-to-use-job-offers-for-pay-rises-study-finds-4799709",
+    "source": "Investing.com Commodities",
+    "author": "Reuters",
+    "excerpt": "Men more likely than women to use job offers for pay rises, study finds",
+    "content": "Men more likely than women to use job offers for pay rises, study finds",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-07-19T08:06:28.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
   }
 ]
