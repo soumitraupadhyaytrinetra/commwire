@@ -37010,5 +37010,41 @@
     "companies": [],
     "technologies": [],
     "processed": true
+  },
+  {
+    "id": 2083,
+    "title": "India says no budget revision needed despite monsoon risks",
+    "url": "https://www.investing.com/news/economy-news/india-says-no-budget-revision-needed-despite-monsoon-risks-93CH-4812861",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "India says no budget revision needed despite monsoon risks",
+    "content": "India says no budget revision needed despite monsoon risks",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-07-26T12:49:57.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 2084,
+    "title": "Goldman previews Warsh’s Task Forces for Advancing Monetary Policy",
+    "url": "https://www.investing.com/news/economy-news/goldman-previews-warshs-task-forces-for-advancing-monetary-policy-4812856",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "Goldman previews Warsh’s Task Forces for Advancing Monetary Policy",
+    "content": "Goldman previews Warsh’s Task Forces for Advancing Monetary Policy",
+    "category": "gold",
+    "tags": [
+      "gold"
+    ],
+    "publicationDate": "2026-07-26T11:13:43.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
   }
 ]
