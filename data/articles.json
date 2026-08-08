@@ -52786,5 +52786,58 @@
     "companies": [],
     "technologies": [],
     "processed": true
+  },
+  {
+    "id": 2970,
+    "title": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
+    "url": "https://www.investing.com/news/economy-news/us-senate-passes-shortterm-funding-bill-to-avert-federal-shutdown-before-election-4847626",
+    "source": "Investing.com Commodities",
+    "author": "Reuters",
+    "excerpt": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
+    "content": "U.S. Senate passes short-term funding bill to avert federal shutdown before election",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-08-08T08:06:45.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 2971,
+    "title": "BofA expects Gulf states to back Bahrain amid geopolitical uncertainty",
+    "url": "https://www.investing.com/news/economy-news/bofa-expects-gulf-states-to-back-bahrain-amid-geopolitical-uncertainty-4847623",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "BofA expects Gulf states to back Bahrain amid geopolitical uncertainty",
+    "content": "BofA expects Gulf states to back Bahrain amid geopolitical uncertainty",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-08-08T07:59:15.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 2972,
+    "title": "Kyiv hit as Ukraine targets Russian refineries and shadow fleet",
+    "url": "https://www.investing.com/news/economy-news/kyiv-hit-as-ukraine-targets-russian-refineries-and-shadow-fleet-4847621",
+    "source": "Investing.com Commodities",
+    "author": "Investing.com",
+    "excerpt": "Kyiv hit as Ukraine targets Russian refineries and shadow fleet",
+    "content": "Kyiv hit as Ukraine targets Russian refineries and shadow fleet",
+    "category": "oil",
+    "tags": [
+      "oil"
+    ],
+    "publicationDate": "2026-08-08T07:19:36.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
   }
 ]
