@@ -54699,5 +54699,58 @@
     "companies": [],
     "technologies": [],
     "processed": true
+  },
+  {
+    "id": 3079,
+    "title": "US officials work to close supply chain gaps as foreign investment grows",
+    "url": "https://www.investing.com/news/economy-news/us-officials-work-to-close-supply-chain-gaps-as-foreign-investment-grows-4850687",
+    "source": "Investing.com Commodities",
+    "author": "Reuters",
+    "excerpt": "US officials work to close supply chain gaps as foreign investment grows",
+    "content": "US officials work to close supply chain gaps as foreign investment grows",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-08-11T02:19:08.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 3080,
+    "title": "Oil prices rise, Asia stocks drift amid US-Iran stalemate",
+    "url": "https://www.investing.com/news/economy-news/oil-prices-rise-asia-stocks-drift-amid-usiran-stalemate-4850719",
+    "source": "Investing.com Commodities",
+    "author": "Reuters",
+    "excerpt": "Oil prices rise, Asia stocks drift amid US-Iran stalemate",
+    "content": "Oil prices rise, Asia stocks drift amid US-Iran stalemate",
+    "category": "oil",
+    "tags": [
+      "oil"
+    ],
+    "publicationDate": "2026-08-11T01:42:33.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
+  },
+  {
+    "id": 3081,
+    "title": "Yen steadies as intervention boost fades; RBA in focus",
+    "url": "https://www.investing.com/news/economy-news/yen-steadies-as-intervention-boost-fades-rba-in-focus-4850718",
+    "source": "Investing.com Commodities",
+    "author": "Reuters",
+    "excerpt": "Yen steadies as intervention boost fades; RBA in focus",
+    "content": "Yen steadies as intervention boost fades; RBA in focus",
+    "category": "metals",
+    "tags": [],
+    "publicationDate": "2026-08-11T01:36:33.000Z",
+    "imageUrl": null,
+    "importanceScore": 70,
+    "companies": [],
+    "technologies": [],
+    "processed": true
   }
 ]
